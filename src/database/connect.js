@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 const connecToDatabase = async () => {
   await mongoose.connect(
-    `mongodb+srv://${process.env.MONGODB_USERNAME}:${process.env.MONGODB_PASSWORD}@cursonodejsdicadev.50csdfx.mongodb.net/database?retryWrites=true&w=majority`,
+    `mongodb+srv://${process.env.MONGODB_USARNAME}:${process.env.MONGODB_PASSWORD}@cursonodejsdicadev.50csdfx.mongodb.net/?retryWrites=true&w=majority`,
     (error) => {
       if (error) {
         return console.log(
