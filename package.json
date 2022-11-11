@@ -1,0 +1,23 @@
+{
+  "name": "projetonodejs_cursoweb",
+  "version": "1.0.0",
+  "description": "Curso de Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/douglas1777/ProjetoNode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/douglas1777/ProjetoNode/issues"
+  },
+  "homepage": "https://github.com/douglas1777/ProjetoNode#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
